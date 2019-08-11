@@ -6,7 +6,7 @@
 #    By: bdeomin <bdeomin@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/22 14:32:03 by bdeomin           #+#    #+#              #
-#    Updated: 2019/07/24 18:10:15 by bdeomin          ###   ########.fr        #
+#    Updated: 2019/08/11 20:49:46 by bdeomin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ C_FILES			= additional_f.c check_file.c draw.c gameplay.c hook.c \
 O_FILES 		= $(addprefix $(OBJ_DIR), $(C_FILES:.c=.o))
 
 LIBFT_DIR		= $(LIB_DIR)libft/
-LIBFT_INC_DIR 	= $(LIBFT_DIR)
+LIBFT_INC_DIR 	= $(LIBFT_DIR)inc/
 LIBFT			= $(LIBFT_DIR)libft.a
 LIBFT_FLAGS		= -lft -L $(LIBFT_DIR)
 
