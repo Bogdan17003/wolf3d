@@ -6,7 +6,7 @@
 /*   By: bdeomin <bdeomin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/15 18:50:12 by bdeomin           #+#    #+#             */
-/*   Updated: 2019/07/26 16:47:55 by bdeomin          ###   ########.fr       */
+/*   Updated: 2019/08/15 20:21:51 by bdeomin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int		move_or_rotate(t_mlx *mlx)
 	if (!mlx->press_up && !mlx->press_down && !mlx->press_left &&
 															!mlx->press_right)
 		return (0);
-	angle = 4.0f / 180.0f * M_PI;
+	angle = 3.0f / 180.0f * M_PI;
 	speed = 0.19f;
 	if (mlx->press_up || mlx->press_down)
 		angle *= 1.3;

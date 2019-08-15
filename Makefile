@@ -6,7 +6,7 @@
 #    By: bdeomin <bdeomin@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/22 14:32:03 by bdeomin           #+#    #+#              #
-#    Updated: 2019/08/11 20:49:46 by bdeomin          ###   ########.fr        #
+#    Updated: 2019/08/15 20:19:18 by bdeomin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,8 +15,7 @@ NAME			= wolf3d
 SRC_DIR			= ./src/
 OBJ_DIR			= ./obj/
 LIB_DIR			= ./lib/
-
-SRC_INC_DIR 	= $(SRC_DIR)
+SRC_INC_DIR 	= ./inc/
 
 C_FILES			= additional_f.c check_file.c draw.c gameplay.c hook.c \
 					initialization.c main.c memory.c move_and_rotate.c \

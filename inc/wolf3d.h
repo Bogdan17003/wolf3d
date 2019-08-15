@@ -6,15 +6,15 @@
 /*   By: bdeomin <bdeomin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/05 16:09:31 by bdeomin           #+#    #+#             */
-/*   Updated: 2019/07/26 17:01:59 by bdeomin          ###   ########.fr       */
+/*   Updated: 2019/08/15 20:20:45 by bdeomin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef WOLF3D_H
 # define WOLF3D_H
 
-# define HEIGHT 1080
-# define WIDTH	1920
+# define HEIGHT 900
+# define WIDTH	1200
 
 # define OPT_COUNT 4
 
